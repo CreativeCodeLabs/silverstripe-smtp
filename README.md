@@ -17,11 +17,11 @@ When would you use this module:
 
 
 ## Requirements
-SilverStripe 2.4+ (might work with 2.3, but only tested on 2.4)
+SilverStripe 3.1+
 
 
 ## Installation
-1. Extract the ``silverstripe-smtp`` folder into the top level of your site and rename it to ``smtp``
+1. ``composer install creativecodelabs/silverstripe-smtp``
 2. Without any configuration, the module is going to connect to the mail server on localhost without authentication
 3. If you want to fall back to the classic mailer without uninstalling the module: Edit ``smtp/_config.php`` and comment out the ``set_mailer`` statement
 
