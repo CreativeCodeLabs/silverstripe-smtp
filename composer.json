@@ -1,5 +1,5 @@
 {
-    "name": "mediadevils/silverstripe-smtp",
+    "name": "creativecodelabs/silverstripe-smtp",
     "description": "Custom SMTP mailer for SilverStripe",
     "type": "silverstripe-module",
     "require": {
